@@ -66,6 +66,11 @@ export default function Footer() {
               <Link href={'https://gaming.ryzenhost.ovh'}>Cloud Gaming</Link>
               <Link href={'https://cpanel.ryzenhost.ovh:2083'}>cPanel</Link>
             </Stack>
+            <Stack align={'flex-start'}>
+              <ListHeader>Termos</ListHeader>
+              <Link href={'/serviceterms'}>Termos de Serviço</Link>
+              <Link href={'/useterms'}>Termos de Uso</Link>
+            </Stack>
 
 
           </SimpleGrid>

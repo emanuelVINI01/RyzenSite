@@ -5,6 +5,8 @@ import Footer from '../src/components/Footer'
 import Information from '../src/components/Information'
 import RepresentProducts from '../src/components/RepresentProducts'
 import Statics from '../src/components/Statics'
+import SubTerm from '../src/components/Terms/SubTerm'
+import Term from '../src/components/Terms/Term'
 import WhyBuy from '../src/components/WhyBuy'
 
 
@@ -51,15 +53,16 @@ export default function Home() {
       </Box>
         */}
       <Stack spacing={0} align={'center'} mt={10} mb={10}>
-            <Heading>O que dizem sobre nós</Heading>
-      </Stack>  
+        <Heading>O que dizem sobre nós</Heading>
+      </Stack>
       <Container mt={15} mb={10}>
-      <Evalution
-        functionemp={'C.E.O - The Ensight Corporation'}
-        describe={'Recomendo muito a RyzenHosting. Após começar a trabalhar com eles e me tornar cliente, posso falar com propriedade que é algo de qualidade. A RyzenHosting não faz overselling como outras hospedagens e garantem total qualidade em seus produtos. Recomendo que comprem com a Ryzen.'} photo={'https://cdn.discordapp.com/avatars/396049406773952512/a_c7d94f0b7502c3e992c6018b0d426383.webp?size=128'}
-        name={'Confinity'} />
+        <Evalution
+          functionemp={'C.E.O - The Ensight Corporation'}
+          describe={'Recomendo muito a RyzenHosting. Após começar a trabalhar com eles e me tornar cliente, posso falar com propriedade que é algo de qualidade. A RyzenHosting não faz overselling como outras hospedagens e garantem total qualidade em seus produtos. Recomendo que comprem com a Ryzen.'} photo={'https://cdn.discordapp.com/avatars/396049406773952512/a_c7d94f0b7502c3e992c6018b0d426383.webp?size=128'}
+          name={'Confinity'} />
       </Container>
       <Divider mb={10} />
+
       <Footer />
     </>
   )

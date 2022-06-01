@@ -34,6 +34,9 @@ import {
   FiCloud
 } from 'react-icons/fi';
 import {
+  RiFilePaper2Fill
+} from 'react-icons/ri'
+import {
   ChevronDownIcon
 } from '@chakra-ui/icons'
 import { IconType } from 'react-icons';
@@ -201,6 +204,56 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             <MenuItem onClick={() => {
               router.push("/vpsgaming")
             }}>Servidores VPS Gaming</MenuItem>
+          </MenuList>
+          
+        </Menu>
+      </Flex>
+      <Flex
+        align="center"
+        p="4"
+        mx="4"
+        borderRadius="lg"
+        role="group"
+        cursor="pointer"
+      >
+        <Menu>
+          <Icon
+            fontSize="16"
+            as={FiCloud}
+          />
+          <MenuButton as={Button} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+            Host de Sistemas
+          </MenuButton>
+          <MenuList>
+            <MenuItem onClick={() => {
+              router.push("/apps")
+            }}>Aplicações</MenuItem>
+          </MenuList>
+        </Menu>
+      </Flex>
+      <Flex
+        align="center"
+        p="4"
+        mx="4"
+        borderRadius="lg"
+        role="group"
+        cursor="pointer"
+      >
+        <Menu>
+          <Icon
+            fontSize="16"
+            as={RiFilePaper2Fill}
+          />
+          <MenuButton as={Button} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+            Termos
+          </MenuButton>
+          <MenuList>
+            <MenuItem onClick={() => {
+              router.push("/serviceterms")
+            }}>Termos de Serviço</MenuItem>
+            <MenuItem onClick={() => {
+              router.push("/useterms")
+            }}>Termos de Uso</MenuItem>
           </MenuList>
           
         </Menu>
