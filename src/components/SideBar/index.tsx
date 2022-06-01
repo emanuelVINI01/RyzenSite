@@ -181,33 +181,8 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
           </MenuList>
         </Menu>
       </Flex>
-      <Flex
-        align="center"
-        p="4"
-        mx="4"
-        borderRadius="lg"
-        role="group"
-        cursor="pointer"
-      >
-        <Menu>
-          <Icon
-            fontSize="16"
-            as={FiServer}
-          />
-          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
-            Host de Servidores
-          </MenuButton>
-          <MenuList>
-            <MenuItem onClick={() => {
-              router.push("/vps")
-            }}>Servidores VPS</MenuItem>
-            <MenuItem onClick={() => {
-              router.push("/vpsgaming")
-            }}>Servidores VPS Gaming</MenuItem>
-          </MenuList>
-          
-        </Menu>
-      </Flex>
+      
+     
       <Flex
         align="center"
         p="4"
@@ -229,33 +204,6 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
               router.push("/apps")
             }}>Aplicações</MenuItem>
           </MenuList>
-        </Menu>
-      </Flex>
-      <Flex
-        align="center"
-        p="4"
-        mx="4"
-        borderRadius="lg"
-        role="group"
-        cursor="pointer"
-      >
-        <Menu>
-          <Icon
-            fontSize="16"
-            as={RiFilePaper2Fill}
-          />
-          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
-            Termos e Políticas
-          </MenuButton>
-          <MenuList>
-            <MenuItem onClick={() => {
-              router.push("/serviceterms")
-            }}>Termos de Serviço</MenuItem>
-            <MenuItem onClick={() => {
-              router.push("/privacypolicy")
-            }}>Política de Privacidade</MenuItem>
-          </MenuList>
-          
         </Menu>
       </Flex>
     </Box >
