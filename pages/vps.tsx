@@ -82,7 +82,7 @@ export default function VPS() {
                     <Divider />
                     <VPSProduct id={27} disk={360} ram={24} price={"R$62,99"} vCPU={12} planName={"Plano VPS 6"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={28} disk={490} ram={32} price={"R$62,99"} vCPU={16} planName={"Plano VPS 7"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={28} disk={490} ram={32} price={"R$75,99"} vCPU={16} planName={"Plano VPS 7"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
                     <VPSProduct id={29} disk={600} ram={48} price={"R$99,99"} vCPU={18} planName={"Plano VPS 8"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
