@@ -244,7 +244,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={RiFilePaper2Fill}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+          <MenuButton as={Button} colorScheme={"gray"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
             Termos e Políticas
           </MenuButton>
           <MenuList>
