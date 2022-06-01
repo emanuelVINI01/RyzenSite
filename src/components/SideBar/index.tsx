@@ -183,7 +183,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
       </Flex>
       
      
-      <Flex
+            <Flex
         align="center"
         p="4"
         mx="4"
@@ -194,16 +194,20 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
         <Menu>
           <Icon
             fontSize="16"
-            as={FiCloud}
+            as={FiServer}
           />
           <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
-            Host de Sistemas
+            Host de Servidores
           </MenuButton>
           <MenuList>
             <MenuItem onClick={() => {
-              router.push("/apps")
-            }}>Aplicações</MenuItem>
+              router.push("/vps")
+            }}>Servidores VPS</MenuItem>
+            <MenuItem onClick={() => {
+              router.push("/vpsgaming")
+            }}>Servidores VPS Gaming</MenuItem>
           </MenuList>
+
         </Menu>
       </Flex>
     </Box >
