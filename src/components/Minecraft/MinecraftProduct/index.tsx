@@ -46,13 +46,13 @@ export default function MinecraftProduct(props: MCProduct) {
     const bg = useColorModeValue('red.300', 'red.700')
     const color = useColorModeValue('gray.900', 'gray.300')
     return (
-        <Box py={12}>
+        <Box py={0}>
             <Stack
                 direction={{ base: 'column', md: 'row' }}
                 textAlign="center"
                 justify="center"
                 spacing={{ base: 4, lg: 10 }}
-                py={10}>
+                py={7}>
 
                 <PriceWrapper>
                     <Box position="relative">
@@ -74,7 +74,7 @@ export default function MinecraftProduct(props: MCProduct) {
                             </Text> : null}
                         </Box>
 
-                        <Box py={4} px={12}>
+                        <Box py={2} px={7}>
                             <Text fontWeight="500" fontSize="2xl" color="green.300">
                                 <Image
                                     src={props.ram + ".png"}
