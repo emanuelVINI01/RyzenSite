@@ -67,9 +67,9 @@ export default function Footer() {
               <Link href={'https://cpanel.ryzenhost.ovh:2083'}>cPanel</Link>
             </Stack>
             <Stack align={'flex-start'}>
-              <ListHeader>Termos</ListHeader>
+              <ListHeader>Termos e Políticas de Uso</ListHeader>
               <Link href={'/serviceterms'}>Termos de Serviço</Link>
-              <Link href={'/useterms'}>Termos de Uso</Link>
+              <Link href={'/privacypolicy'}>Política de Privacidade</Link>
             </Stack>
 
 
