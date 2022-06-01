@@ -122,7 +122,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={FiPlay}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null}>
+          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null}>
             Host de Jogos
           </MenuButton>
           <MenuList>
@@ -145,7 +145,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={FiGlobe}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
             Host de Sites
           </MenuButton>
           <MenuList>
@@ -171,7 +171,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={FiCloud}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
             Host de Sistemas
           </MenuButton>
           <MenuList>
@@ -194,7 +194,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={FiServer}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
             Host de Servidores
           </MenuButton>
           <MenuList>
@@ -221,7 +221,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={FiCloud}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
             Host de Sistemas
           </MenuButton>
           <MenuList>
@@ -244,7 +244,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             fontSize="16"
             as={RiFilePaper2Fill}
           />
-          <MenuButton as={Button} colorScheme={"gray.900"} color={"white"} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
             Termos e Políticas
           </MenuButton>
           <MenuList>

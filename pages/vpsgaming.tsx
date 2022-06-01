@@ -41,25 +41,6 @@ export default function VPSGaming() {
                 document.getElementById("products").scrollIntoView({ behavior: 'smooth' })
             }} />
             <Divider mt={15} />
-            <Stack
-                direction={{ base: 'column', md: 'row' }}
-                textAlign="center"
-                justify="center"
-                spacing={{ base: 4, lg: 10 }}
-                overflow={"auto"}
-                mt={10}
-            >
-                <SimpleGrid columns={[1, 1, 1, 2]} spacing={10} id="locations">
-
-                    <LocationCard image={"eua.png"} location_describe={"Localização Estados Unidos, Virginia."} id={"eua"} bg={"green.100"} onClick={() => {
-
-                    }} />
-                    <LocationCard image={"bra.jpeg"} location_describe={"Localização Brasil, São Paulo."} id={"br"} onClick={() => {
-                        router.push("https://discord.ryzenhost.ovh")
-
-                    }} bg={null} />
-                </SimpleGrid>
-            </Stack>
 
             <Box
                 py={12}
