@@ -178,6 +178,33 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
           </MenuList>
         </Menu>
       </Flex>
+      <Flex
+        align="center"
+        p="4"
+        mx="4"
+        borderRadius="lg"
+        role="group"
+        cursor="pointer"
+      >
+        <Menu>
+          <Icon
+            fontSize="16"
+            as={FiServer}
+          />
+          <MenuButton as={Button} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
+            Host de Servidores
+          </MenuButton>
+          <MenuList>
+            <MenuItem onClick={() => {
+              router.push("/vps")
+            }}>Servidores VPS</MenuItem>
+            <MenuItem onClick={() => {
+              router.push("/vpsgaming")
+            }}>Servidores VPS Gaming</MenuItem>
+          </MenuList>
+          
+        </Menu>
+      </Flex>
     </Box >
   );
 };
