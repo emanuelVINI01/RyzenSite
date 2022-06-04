@@ -84,7 +84,9 @@ export default function Minecraft() {
                     spacing={{ base: 4, lg: 10 }}
                     overflow={"auto"}
                 >
-                    <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-eua">
+                    <div>
+                        
+                                            <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-eua">
                         <MinecraftProduct product_id={9} name={"Plano EUA 1"} price={"3,00"} ram={1} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                         <MinecraftProduct product_id={10} name={"Plano EUA 2"} price={"6,00"} ram={2} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                         <MinecraftProduct product_id={11} name={"Plano EUA 3"} price={"12,00"} ram={4} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} ranked />
@@ -105,6 +107,7 @@ export default function Minecraft() {
                         <MinecraftProduct product_id={7} name={"Plano BRA 7"} price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
                         <MinecraftProduct product_id={8} name={"Plano BRA 8"} price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
                     </SimpleGrid>
+                    </div>
                 </Stack>
 
             </Box>
