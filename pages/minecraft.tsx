@@ -37,12 +37,12 @@ export default function Minecraft() {
                 <title>RyzenHosting - Minecraft</title>
             </Head>
             <ProductInformation onClick={() => {
-                  if (document.getElementById("minecraft-eua").hidden) {
+                if (document.getElementById("minecraft-eua").hidden) {
                     document.getElementById("minecraft-br").scrollIntoView({ behavior: 'smooth' })
-                  } else {
+                } else {
                     document.getElementById("minecraft-eua").scrollIntoView({ behavior: 'smooth' })
-                  }
-                }} />
+                }
+            }} />
             <Divider mt={15} />
             <Box
                 py={12}
@@ -85,28 +85,28 @@ export default function Minecraft() {
                     overflow={"auto"}
                 >
                     <div>
-                        
-                                            <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-eua">
-                        <MinecraftProduct product_id={9} name={"Plano EUA 1"} price={"3,00"} ram={1} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                        <MinecraftProduct product_id={10} name={"Plano EUA 2"} price={"6,00"} ram={2} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                        <MinecraftProduct product_id={11} name={"Plano EUA 3"} price={"12,00"} ram={4} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} ranked />
-                        <MinecraftProduct product_id={12} name={"Plano EUA 4"} price={"24,00"} ram={8} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                        <MinecraftProduct product_id={13} name={"Plano EUA 5"} price={"36,00"} ram={12} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                        <MinecraftProduct product_id={14} name={"Plano EUA 6"} price={"48,00"} ram={16} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                        <MinecraftProduct product_id={15} name={"Plano EUA 7"} price={"72,00"} ram={24} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                        <MinecraftProduct product_id={16} name={"Plano EUA 8"} price={"96,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
 
-                    </SimpleGrid>
-                    <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-br" hidden>
-                        <MinecraftProduct product_id={1} name={"Plano BRA 1"} price={"5,00"} ram={1} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                        <MinecraftProduct product_id={2} name={"Plano BRA 2"} price={"10,00"} ram={2} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                        <MinecraftProduct product_id={3} name={"Plano BRA 3"} price={"20,00"} ram={4} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                        <MinecraftProduct product_id={4} name={"Plano BRA 4"} price={"40,00"} ram={8} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} ranked />
-                        <MinecraftProduct product_id={5} name={"Plano BRA 5"} price={"60,00"} ram={12} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                        <MinecraftProduct product_id={6} name={"Plano BRA 6"} price={"80,00"} ram={16} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                        <MinecraftProduct product_id={7} name={"Plano BRA 7"} price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                        <MinecraftProduct product_id={8} name={"Plano BRA 8"} price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                    </SimpleGrid>
+                        <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-eua">
+                            <MinecraftProduct product_id={9} name={"Plano EUA 1"} price={"3,00"} ram={1} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={10} name={"Plano EUA 2"} price={"6,00"} ram={2} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={11} name={"Plano EUA 3"} price={"12,00"} ram={4} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} ranked />
+                            <MinecraftProduct product_id={12} name={"Plano EUA 4"} price={"24,00"} ram={8} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={13} name={"Plano EUA 5"} price={"36,00"} ram={12} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={14} name={"Plano EUA 6"} price={"48,00"} ram={16} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={15} name={"Plano EUA 7"} price={"72,00"} ram={24} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={16} name={"Plano EUA 8"} price={"96,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+
+                        </SimpleGrid>
+                        <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-br" hidden>
+                            <MinecraftProduct product_id={1} name={"Plano BRA 1"} price={"5,00"} ram={1} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <MinecraftProduct product_id={2} name={"Plano BRA 2"} price={"10,00"} ram={2} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <MinecraftProduct product_id={3} name={"Plano BRA 3"} price={"20,00"} ram={4} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <MinecraftProduct product_id={4} name={"Plano BRA 4"} price={"40,00"} ram={8} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} ranked />
+                            <MinecraftProduct product_id={5} name={"Plano BRA 5"} price={"60,00"} ram={12} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <MinecraftProduct product_id={6} name={"Plano BRA 6"} price={"80,00"} ram={16} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <MinecraftProduct product_id={7} name={"Plano BRA 7"} price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <MinecraftProduct product_id={8} name={"Plano BRA 8"} price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                        </SimpleGrid>
                     </div>
                 </Stack>
 

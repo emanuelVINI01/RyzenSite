@@ -54,18 +54,19 @@ export default function RepresentProducts() {
                 py={10}
             >
                 <SimpleGrid columns={[1, 1, 1, 1, 2, 3]} alignItems={"center"} spacing={20} id="cpanel">
-                    <PriceWrapper>
+                    
+                <PriceWrapper>
                         <Box position="relative">
                             <Box py={4} px={12}>
                                 <Text fontWeight="500" fontSize="2xl" color="#7289DA">
-                                    Aplicações
+                                    cPanel
                                 </Text>
                                 <HStack justifyContent="center">
                                     <Text fontSize="3xl" fontWeight="600" >
                                         R$
                                     </Text>
                                     <Text fontSize="5xl" fontWeight="900" color="#7289DA">
-                                        2,50
+                                        4,99
                                     </Text>
                                     <Text fontSize="3xl" color="gray.500">
                                         /mês
@@ -79,26 +80,33 @@ export default function RepresentProducts() {
                                 <List spacing={3} textAlign="start" px={12}>
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Seu bot sempre online.
+                                        Seu site sempre online.
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Latência baixa com o discord.
+                                        Estabilidade garantida.
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Suporte a Python e JavaScript.
+                                        Painel de controle cPanel.
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Painel de controle cPanel.
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Painel de controle cPanel.
                                     </ListItem>
                                 </List>
                                 <Box w="80%" pt={7}>
-                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/apps") }}>
+                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/cpanel") }}>
                                         Configurar
                                     </Button>
                                 </Box>
                             </VStack>
                         </Box>
                     </PriceWrapper>
-
                     <PriceWrapper>
                         <Box position="relative">
                             <Box
@@ -175,67 +183,6 @@ export default function RepresentProducts() {
                     <PriceWrapper>
                         <Box position="relative">
                             <Box py={4} px={12}>
-                                <Text fontWeight="500" fontSize="2xl" color="#7289DA">
-                                    cPanel
-                                </Text>
-                                <HStack justifyContent="center">
-                                    <Text fontSize="3xl" fontWeight="600" >
-                                        R$
-                                    </Text>
-                                    <Text fontSize="5xl" fontWeight="900" color="#7289DA">
-                                        4,99
-                                    </Text>
-                                    <Text fontSize="3xl" color="gray.500">
-                                        /mês
-                                    </Text>
-                                </HStack>
-                            </Box>
-                            <VStack
-                                bg={useColorModeValue('gray.50', 'gray.700')}
-                                py={4}
-                                borderBottomRadius={'xl'}>
-                                <List spacing={3} textAlign="start" px={12}>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Seu site sempre online.
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Estabilidade garantida.
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Painel de controle cPanel.
-                                    </ListItem>
-                                </List>
-                                <Box w="80%" pt={7}>
-                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/cpanel") }}>
-                                        Configurar
-                                    </Button>
-                                </Box>
-                            </VStack>
-                        </Box>
-                    </PriceWrapper>
-                    <PriceWrapper>
-                        <Box position="relative">
-                            <Box
-                                position="absolute"
-                                top="-16px"
-                                left="50%"
-                                style={{ transform: 'translate(-50%)' }}>
-                                <Text
-                                    textTransform="uppercase"
-                                    bg={useColorModeValue('red.300', 'red.700')}
-                                    px={3}
-                                    py={1}
-                                    color={useColorModeValue('gray.900', 'gray.300')}
-                                    fontSize="sm"
-                                    fontWeight="600"
-                                    rounded="xl">
-                                    Melhor Preço
-                                </Text>
-                            </Box>
-                            <Box py={4} px={12}>
                                 <Text fontWeight="500" fontSize="2xl" color="green.300">
                                     Servidores VPS
                                 </Text>
@@ -243,7 +190,7 @@ export default function RepresentProducts() {
                                     <Text fontSize="3xl" fontWeight="600" >
                                         R$
                                     </Text>
-                                    <Text fontSize="5xl" fontWeight="900" color="green.300">
+                                    <Text fontSize="5xl" fontWeight="900" color="#7289DA">
                                         14,99
                                     </Text>
                                     <Text fontSize="3xl" color="gray.500">
@@ -276,10 +223,6 @@ export default function RepresentProducts() {
                                         <ListIcon as={FaCheckCircle} color="green.500" />
                                         Painel de controle Virtualizor
                                     </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Processador Xeon
-                                    </ListItem>
                                 </List>
                                 <Box w="80%" pt={7}>
                                     <Button w="full" colorScheme="red" onClick={() => { router.push("/vps") }}>
@@ -289,120 +232,8 @@ export default function RepresentProducts() {
                             </VStack>
                         </Box>
                     </PriceWrapper>
-                    <PriceWrapper>
-                        <Box position="relative">
-                            <Box py={4} px={12}>
-                                <Text fontWeight="500" fontSize="2xl" color="green.300">
-                                    Servidores VPS Gaming
-                                </Text>
-                                <HStack justifyContent="center">
-                                    <Text fontSize="3xl" fontWeight="600" >
-                                        R$
-                                    </Text>
-                                    <Text fontSize="5xl" fontWeight="900" color="green.300">
-                                        15,99
-                                    </Text>
-                                    <Text fontSize="3xl" color="gray.500">
-                                        /mês
-                                    </Text>
-                                </HStack>
-                            </Box>
-                            <VStack
-                                bg={useColorModeValue('gray.50', 'gray.700')}
-                                py={4}
-                                borderBottomRadius={'xl'}>
-                                <List spacing={3} textAlign="start" px={12}>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Seu VPS sempre online
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Localizações no Brasil e nos Estados Unidos
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Acesso SSH root
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        IPv4 dedicado
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Painel de controle Virtualizor
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Processador I7
-                                    </ListItem>
-                                </List>
-                                <Box w="80%" pt={7}>
-                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/vpsgaming") }}>
-                                        Configurar
-                                    </Button>
-                                </Box>
-                            </VStack>
-                        </Box>
-                    </PriceWrapper>
-                    <PriceWrapper>
-                        <Box position="relative">
-                            <Box py={4} px={12}>
-                                <Text fontWeight="500" fontSize="2xl" color="green.300">
-                                    Revenda cPanel
-                                </Text>
-                                <HStack justifyContent="center">
-                                    <Text fontSize="3xl" fontWeight="600" >
-                                        R$
-                                    </Text>
-                                    <Text fontSize="5xl" fontWeight="900" color="green.300">
-                                        24,99
-                                    </Text>
-                                    <Text fontSize="3xl" color="gray.500">
-                                        /mês
-                                    </Text>
-                                </HStack>
-                            </Box>
-                            <VStack
-                                bg={useColorModeValue('gray.50', 'gray.700')}
-                                py={4}
-                                borderBottomRadius={'xl'}>
-                                <List spacing={3} textAlign="start" px={12}>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Sua revenda está sempre disponível
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Certificado SSL ( https ) gratuito
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Acesso SSH root
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Crie usuários
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Painel de controle WHM e cPanel
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Banco de dados MySQL
-                                    </ListItem>
-                                </List>
-                                <Box w="80%" pt={7}>
-                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/cpanelrevenda") }}>
-                                        Configurar
-                                    </Button>
-                                </Box>
-                            </VStack>
-                        </Box>
-                    </PriceWrapper>
+                
                 </SimpleGrid>
-
             </Stack>
         </Box>
     );

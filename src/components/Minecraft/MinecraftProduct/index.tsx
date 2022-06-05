@@ -31,16 +31,17 @@ function PriceWrapper({ children }: { children: ReactNode }) {
         </Box>
     );
 }
-interface MCProduct {
-    product_id: number;
-    name: string;
-    price: string;
-    ram: number;
-    ranked?: boolean;
-    ping: string;
-    cpu: string;
-}
-export default function MinecraftProduct(props: MCProduct) {
+
+export default function MinecraftProduct(props: {
+    product_id : number,
+    name : string,
+    price : string, 
+    ram : number,
+    ranked?: boolean,
+    ping : string,
+    cpu : string,
+    diskType? : string
+}) {
 
     const router = useRouter()
     const bg = useColorModeValue('red.300', 'red.700')
@@ -114,7 +115,7 @@ export default function MinecraftProduct(props: MCProduct) {
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
-                                    {props.ram * 5}GB de HDD
+                                    {props.ram * 5}GB de {props.diskType || "HDD"}
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
