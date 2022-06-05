@@ -129,9 +129,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             <MenuItem onClick={() => {
               router.push("/minecraft")
             }}>Minecraft</MenuItem>
-          </MenuList>
-          <MenuList>
-            <MenuItem onClick={() => {
+                        <MenuItem onClick={() => {
               router.push("/minecraftgaming")
             }}>Minecraft Gaming</MenuItem>
           </MenuList>
