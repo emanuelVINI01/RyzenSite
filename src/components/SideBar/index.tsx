@@ -130,6 +130,11 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
               router.push("/minecraft")
             }}>Minecraft</MenuItem>
           </MenuList>
+          <MenuList>
+            <MenuItem onClick={() => {
+              router.push("/minecraftgaming")
+            }}>Minecraft Gaming</MenuItem>
+          </MenuList>
         </Menu>
       </Flex>
       <Flex

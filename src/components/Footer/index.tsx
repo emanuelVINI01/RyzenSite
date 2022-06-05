@@ -47,6 +47,7 @@ export default function Footer() {
             <Stack align={'flex-start'}>
               <ListHeader>Produtos</ListHeader>
               <Link href={'/minecraft'}>Minecraft</Link>
+              <Link href={'/minecraftgaming'}>Minecraft Gaming</Link>
               <Link href={'/apps'}>Aplicações</Link>
               <Link href={'/vps'}>VPS Xeon</Link>
               <Link href={'/vpsgaming'}>VPS Gaming</Link>
