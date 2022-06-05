@@ -82,15 +82,15 @@ export default function VPS() {
                     <Divider />
                     <VPSProduct id={27} disk={360} ram={24} price={"R$62,99"} vCPU={12} planName={"Plano VPS 6"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={28} disk={490} ram={32} price={"R$75,99"} vCPU={16} planName={"Plano VPS 7"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={28} disk={490} ram={32} price={"R$75,99"} vCPU={14} planName={"Plano VPS 7"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={29} disk={600} ram={48} price={"R$99,99"} vCPU={18} planName={"Plano VPS 8"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={29} disk={600} ram={48} price={"R$99,99"} vCPU={16} planName={"Plano VPS 8"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={30} disk={800} ram={64} price={"R$121,99"} vCPU={18} planName={"Plano VPS 9"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={30} disk={800} ram={64} price={"R$121,99"} vCPU={16} planName={"Plano VPS 9"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={31} disk={1000} ram={96} price={"R$159,99"} vCPU={18} planName={"Plano VPS 10"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={31} disk={1000} ram={96} price={"R$159,99"} vCPU={16} planName={"Plano VPS 10"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={32} disk={1600} ram={128} price={"R$219,99"} vCPU={20} planName={"Plano VPS 11"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={32} disk={1600} ram={128} price={"R$219,99"} vCPU={26} planName={"Plano VPS 11"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                 </Stack>
             </Box>
             <Divider />
