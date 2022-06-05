@@ -53,13 +53,13 @@ export default function MinecraftGaming() {
 
                         <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft">
                             <MinecraftProduct product_id={48} name={"Plano EUA Gaming 1"} diskType={"NVMe"} price={"4,00"} ram={1} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
-                            <MinecraftProduct product_id={10} name={"Plano EUA Gaming 2"} diskType={"NVMe"} price={"8,00"} ram={2} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
-                            <MinecraftProduct product_id={11} name={"Plano EUA Gaming 3"} diskType={"NVMe"} price={"16,00"} ram={4} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
-                            <MinecraftProduct product_id={12} name={"Plano EUA Gaming 4"} diskType={"NVMe"} price={"32,00"} ram={8} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
-                            <MinecraftProduct product_id={13} name={"Plano EUA Gaming 5"} diskType={"NVMe"} price={"48,00"} ram={12} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} ranked  />
-                            <MinecraftProduct product_id={14} name={"Plano EUA Gaming 6"} diskType={"NVMe"} price={"64,00"} ram={16} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
-                            <MinecraftProduct product_id={15} name={"Plano EUA Gaming 7"} diskType={"NVMe"} price={"96,00"} ram={24} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
-                            <MinecraftProduct product_id={16} name={"Plano EUA Gaming 8"} diskType={"NVMe"} price={"128,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
+                            <MinecraftProduct product_id={49} name={"Plano EUA Gaming 2"} diskType={"NVMe"} price={"8,00"} ram={2} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
+                            <MinecraftProduct product_id={50} name={"Plano EUA Gaming 3"} diskType={"NVMe"} price={"16,00"} ram={4} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
+                            <MinecraftProduct product_id={51} name={"Plano EUA Gaming 4"} diskType={"NVMe"} price={"32,00"} ram={8} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
+                            <MinecraftProduct product_id={52} name={"Plano EUA Gaming 5"} diskType={"NVMe"} price={"48,00"} ram={12} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} ranked  />
+                            <MinecraftProduct product_id={53} name={"Plano EUA Gaming 6"} diskType={"NVMe"} price={"64,00"} ram={16} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
+                            <MinecraftProduct product_id={54} name={"Plano EUA Gaming 7"} diskType={"NVMe"} price={"96,00"} ram={24} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
+                            <MinecraftProduct product_id={55} name={"Plano EUA Gaming 8"} diskType={"NVMe"} price={"128,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
 
                         </SimpleGrid>
                     </div>
