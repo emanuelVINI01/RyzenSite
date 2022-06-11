@@ -56,7 +56,7 @@ export default function VPSGaming() {
                         dtype="NVMe"
                         disk={40}
                         ram={2}
-                        price={"R$15,99"}
+                        price={"R$23,99"}
                         vCPU={1}
                         planName={"Plano VPS Gaming 1"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
@@ -66,7 +66,7 @@ export default function VPSGaming() {
                         dtype="NVMe"
                         disk={90}
                         ram={4}
-                        price={"R$24,99"}
+                        price={"R$31,99"}
                         vCPU={1}
                         planName={"Plano VPS Gaming 2"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
@@ -74,50 +74,50 @@ export default function VPSGaming() {
                     <VPSProduct
                         id={43}
                         dtype="NVMe"
-                        disk={100}
+                        disk={120}
                         ram={8}
-                        price={"R$42,99"}
-                        vCPU={2}
+                        price={"R$44,99"}
+                        vCPU={3}
                         planName={"Plano VPS Gaming 3"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
                         id={44}
                         dtype="NVMe"
-                        disk={125}
+                        disk={160}
                         ram={12}
-                        price={"R$54,99"}
-                        vCPU={4}
+                        price={"R$56,99"}
+                        vCPU={3}
                         planName={"Plano VPS Gaming 4"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
                         id={45}
                         dtype="NVMe"
-                        disk={140}
+                        disk={180}
                         ram={16}
-                        price={"R$64,99"}
-                        vCPU={5}
+                        price={"R$73,99"}
+                        vCPU={4}
                         planName={"Plano VPS Gaming 5"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
                         id={46}
                         dtype="NVMe"
-                        disk={360}
+                        disk={200}
                         ram={24}
-                        price={"R$94,99"}
-                        vCPU={6}
+                        price={"R$97,99"}
+                        vCPU={5}
                         planName={"Plano VPS Gaming 6"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
                         id={47}
                         dtype="NVMe"
-                        disk={450}
+                        disk={250}
                         ram={32}
-                        price={"R$119,99"}
-                        vCPU={8}
+                        price={"R$167,99"}
+                        vCPU={6}
                         planName={"Plano VPS Gaming 7"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                 </Stack>
