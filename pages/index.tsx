@@ -24,7 +24,7 @@ export default function Home() {
       <Divider mt={50} />
       <Statics />
       <Divider mt={50} />
-      {/*
+      
       <Box bg={useColorModeValue('gray.400', 'gray.800')}>
         <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
           <Stack spacing={0} align={'center'}>
@@ -38,31 +38,17 @@ export default function Home() {
               describe={'Recomendo muito a RyzenHosting. Após começar a trabalhar com eles e me tornar cliente, posso falar com propriedade que é algo de qualidade. A RyzenHosting não faz overselling como outras hospedagens e garantem total qualidade em seus produtos. Recomendo que comprem com a Ryzen.'} photo={'https://cdn.discordapp.com/avatars/396049406773952512/a_c7d94f0b7502c3e992c6018b0d426383.webp?size=128'}
               name={'Confinity'} />
              <Evalution 
-            functionemp={'C.E.O - Hyperium'} 
+            functionemp={'C.E.O - Wolves'} 
             describe={'Recomendo muito a Ryzen, sou cliente de lá a muito tempo, e tenho vários serviços ativos.'} photo={'https://cdn.discordapp.com/avatars/503012126596530196/f4023865eee5e4aabf97d909f15bd419.webp?size=128'} 
-            name={'João Gabriel'} />
-            <Evalution 
-            functionemp={'C.E.O - The Ensight Corporation'} 
-            describe={'Recomendo muito a RyzenHosting. Após começar a trabalhar com eles e me tornar cliente, posso falar com propriedade que é algo de qualidade. A RyzenHosting não faz overselling como outras hospedagens e garantem total qualidade em seus produtos. Recomendo que comprem com a Ryzen.'} photo={'https://cdn.discordapp.com/avatars/396049406773952512/a_c7d94f0b7502c3e992c6018b0d426383.webp?size=128'} 
-            name={'Confinity'} />
+            name={'Lowercase'} />
+
 
 
 
           </Stack>
         </Container>
       </Box>
-        */}
-      <Stack spacing={0} align={'center'} mt={10} mb={10}>
-        <Heading>O que dizem sobre nós</Heading>
-      </Stack>
-      <Container mt={15} mb={10}>
-        <Evalution
-          functionemp={'C.E.O - The Ensight Corporation'}
-          describe={'Recomendo muito a RyzenHosting. Após começar a trabalhar com eles e me tornar cliente, posso falar com propriedade que é algo de qualidade. A RyzenHosting não faz overselling como outras hospedagens e garantem total qualidade em seus produtos. Recomendo que comprem com a Ryzen.'} photo={'https://cdn.discordapp.com/avatars/396049406773952512/a_c7d94f0b7502c3e992c6018b0d426383.webp?size=128'}
-          name={'Confinity'} />
-      </Container>
-      <Divider mb={10} />
-
+       
       <Footer />
     </>
   )
