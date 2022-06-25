@@ -39,7 +39,7 @@ export default function Home() {
               name={'Confinity'} />
              <Evalution 
             functionemp={'C.E.O - Wolves'} 
-            describe={'Recomendo muito a Ryzen, sou cliente de lá a muito tempo, e tenho vários serviços ativos.'} photo={'https://cdn.discordapp.com/avatars/503012126596530196/f4023865eee5e4aabf97d909f15bd419.webp?size=128'} 
+            describe={'Recomendo muito a Ryzen, sou cliente de lá a muito tempo, e tenho vários serviços ativos.'} photo={'https://cdn.discordapp.com/attachments/985861706272096296/987694135194554389/unknown.png'} 
             name={'Lowercase'} />
 
 
