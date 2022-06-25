@@ -41,7 +41,11 @@ export default function Home() {
             functionemp={'C.E.O - Wolves'} 
             describe={'Recomendo muito a Ryzen, sou cliente de lá a muito tempo, e tenho vários serviços ativos.'} photo={'https://cdn.discordapp.com/attachments/985861706272096296/987694135194554389/unknown.png'} 
             name={'Lowercase'} />
-
+            <Evalution
+              functionemp={'C.E.O - Optimize Team'}
+              describe={'Após muito tempo na ryzen hosting, o desempenho mudou muito em questão de performace, tenho o plano revenda da i7 recomendo muito realmente superaram minhas expectativas e conseguiram ganhar minha confiança, um ótimo suporte e foi a minha primeira máquina da minha empresa, então tive uma experiencia diferenciada, realmente mudaram minha rotina a cada dia, obrigado ryzen hosting.'} 
+              photo={'https://cdn.discordapp.com/icons/895266471196913665/46ce2bda2b19ad4f55975527cd8b6160.webp?size=128'}
+              name={'Nuno'} />
 
 
 
