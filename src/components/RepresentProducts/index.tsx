@@ -92,11 +92,11 @@ export default function RepresentProducts() {
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Painel de controle cPanel.
+                                        Planos a partir de R$4,99
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Painel de controle cPanel.
+                                        Acesso a FTP.
                                     </ListItem>
                                 </List>
                                 <Box w="80%" pt={7}>
