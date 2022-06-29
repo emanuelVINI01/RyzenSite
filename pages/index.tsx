@@ -39,7 +39,7 @@ export default function Home() {
               name={'Confinity'} />
              <Evalution 
             functionemp={'C.E.O - Wolves'} 
-            describe={'Recomendo muito a Ryzen, sou cliente de lá a muito tempo, e tenho vários serviços ativos.'} photo={'https://cdn.discordapp.com/attachments/985861706272096296/987694135194554389/unknown.png'} 
+            describe={'Recomendo bastante a RyzenHosting, possui um ótimo suporte, hosts baratas e que valem apena, cada centavo que gastei do meu bolso renovando a host foi a melhor escolha que tive, a RyzenHosting possui uma qualidade em seus produtos muito grande, após começar a ser um cliente deles nunca tive problemas com nenhum produtos e nem com atendimento! Super recomendo que façam suas compras na RyzenHosting.'} photo={'https://cdn.discordapp.com/attachments/985861706272096296/987694135194554389/unknown.png'} 
             name={'Lowercase'} />
             <Evalution
               functionemp={'C.E.O - Optimize Team'}
