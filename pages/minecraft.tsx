@@ -98,14 +98,7 @@ export default function Minecraft() {
 
                         </SimpleGrid>
                         <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-br" hidden>
-                            <MinecraftProduct product_id={1} name={"Plano BRA 1"} price={"5,00"} ram={1} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                            <MinecraftProduct product_id={2} name={"Plano BRA 2"} price={"10,00"} ram={2} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                            <MinecraftProduct product_id={3} name={"Plano BRA 3"} price={"20,00"} ram={4} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                            <MinecraftProduct product_id={4} name={"Plano BRA 4"} price={"40,00"} ram={8} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} ranked />
-                            <MinecraftProduct product_id={5} name={"Plano BRA 5"} price={"60,00"} ram={12} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                            <MinecraftProduct product_id={6} name={"Plano BRA 6"} price={"80,00"} ram={16} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                            <MinecraftProduct product_id={7} name={"Plano BRA 7"} price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
-                            <MinecraftProduct product_id={8} name={"Plano BRA 8"} price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz"} />
+                            <h1> Retorna em breve </h1>
                         </SimpleGrid>
                     </div>
                 </Stack>
