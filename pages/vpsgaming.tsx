@@ -106,7 +106,7 @@ export default function VPSGaming() {
                         dtype="NVMe"
                         disk={200}
                         ram={24}
-                        price={"R$97,99"}
+                        price={"R$134,99"}
                         vCPU={5}
                         planName={"Plano VPS Gaming 6"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
@@ -116,7 +116,7 @@ export default function VPSGaming() {
                         dtype="NVMe"
                         disk={250}
                         ram={32}
-                        price={"R$167,99"}
+                        price={"R$188,99"}
                         vCPU={6}
                         planName={"Plano VPS Gaming 7"}
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
