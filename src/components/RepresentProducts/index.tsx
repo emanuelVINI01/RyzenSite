@@ -55,58 +55,7 @@ export default function RepresentProducts() {
             >
                 <SimpleGrid columns={[1, 1, 1, 1, 2, 3]} alignItems={"center"} spacing={20} id="cpanel">
                     
-                <PriceWrapper>
-                        <Box position="relative">
-                            <Box py={4} px={12}>
-                                <Text fontWeight="500" fontSize="2xl" color="#7289DA">
-                                    cPanel
-                                </Text>
-                                <HStack justifyContent="center">
-                                    <Text fontSize="3xl" fontWeight="600" >
-                                        R$
-                                    </Text>
-                                    <Text fontSize="5xl" fontWeight="900" color="#7289DA">
-                                        4,99
-                                    </Text>
-                                    <Text fontSize="3xl" color="gray.500">
-                                        /mês
-                                    </Text>
-                                </HStack>
-                            </Box>
-                            <VStack
-                                bg={useColorModeValue('gray.50', 'gray.700')}
-                                py={4}
-                                borderBottomRadius={'xl'}>
-                                <List spacing={3} textAlign="start" px={12}>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Seu site sempre online.
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Estabilidade garantida.
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Painel de controle cPanel.
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Planos a partir de R$4,99
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={FaCheckCircle} color="green.500" />
-                                        Acesso a FTP.
-                                    </ListItem>
-                                </List>
-                                <Box w="80%" pt={7}>
-                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/cpanel") }}>
-                                        Configurar
-                                    </Button>
-                                </Box>
-                            </VStack>
-                        </Box>
-                    </PriceWrapper>
+       
                     <PriceWrapper>
                         <Box position="relative">
                             <Box
