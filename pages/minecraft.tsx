@@ -92,10 +92,10 @@ export default function Minecraft() {
                             <MinecraftProduct product_id={3} name={"Plano EUA 3"} price={"12,00"} ram={4} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} ranked />
                             <MinecraftProduct product_id={4} name={"Plano EUA 4"} price={"18,00"} ram={6} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                             <MinecraftProduct product_id={5} name={"Plano EUA 5"} price={"24,00"} ram={8} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                            <MinecraftProduct product_id={13} name={"Plano EUA 6"} price={"36,00"} ram={12} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                            <MinecraftProduct product_id={14} name={"Plano EUA 7"} price={"48,00"} ram={16} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                            <MinecraftProduct product_id={15} name={"Plano EUA 8"} price={"72,00"} ram={24} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
-                            <MinecraftProduct product_id={16} name={"Plano EUA 9"} price={"96,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={6} name={"Plano EUA 6"} price={"36,00"} ram={12} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={7} name={"Plano EUA 7"} price={"48,00"} ram={16} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={8} name={"Plano EUA 8"} price={"72,00"} ram={24} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                            <MinecraftProduct product_id={9} name={"Plano EUA 9"} price={"96,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
 
                         </SimpleGrid>
                         <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-br" hidden>
