@@ -52,7 +52,7 @@ export default function VPSGaming() {
                 <Stack spacing={4} width={'100%'} direction={'column'} mt={10} id={"products"}>
                     <Divider />
                     <VPSProduct
-                        id={41}
+                        id={31}
                         dtype="NVMe"
                         disk={40}
                         ram={2}
@@ -62,7 +62,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={42}
+                        id={32}
                         dtype="NVMe"
                         disk={90}
                         ram={4}
@@ -72,7 +72,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={57}
+                        id={33}
                         dtype="NVMe"
                         disk={120}
                         ram={8}
@@ -82,7 +82,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={58}
+                        id={34}
                         dtype="NVMe"
                         disk={160}
                         ram={12}
@@ -92,7 +92,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={59}
+                        id={35}
                         dtype="NVMe"
                         disk={180}
                         ram={16}
@@ -102,7 +102,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={60}
+                        id={36}
                         dtype="NVMe"
                         disk={200}
                         ram={24}
@@ -112,7 +112,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={56}
+                        id={37}
                         dtype="NVMe"
                         disk={250}
                         ram={32}
