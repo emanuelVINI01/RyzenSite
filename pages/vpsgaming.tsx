@@ -52,7 +52,7 @@ export default function VPSGaming() {
                 <Stack spacing={4} width={'100%'} direction={'column'} mt={10} id={"products"}>
                     <Divider />
                     <VPSProduct
-                        id={31}
+                        id={23}
                         dtype="NVMe"
                         disk={40}
                         ram={2}
@@ -62,7 +62,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={32}
+                        id={24}
                         dtype="NVMe"
                         disk={90}
                         ram={4}
@@ -72,7 +72,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={33}
+                        id={25}
                         dtype="NVMe"
                         disk={120}
                         ram={8}
@@ -82,7 +82,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={34}
+                        id={26}
                         dtype="NVMe"
                         disk={160}
                         ram={12}
@@ -102,7 +102,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={36}
+                        id={27}
                         dtype="NVMe"
                         disk={200}
                         ram={24}
@@ -112,7 +112,7 @@ export default function VPSGaming() {
                         cpu={"Intel(R) Core(R) I7 7700k @ 5.00GHz"} />
                     <Divider />
                     <VPSProduct
-                        id={37}
+                        id={28}
                         dtype="NVMe"
                         disk={250}
                         ram={32}
