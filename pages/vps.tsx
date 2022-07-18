@@ -54,7 +54,10 @@ export default function VPS() {
                     <LocationCard image={"eua.png"} location_describe={"Localização Estados Unidos, Virginia."} id={"eua"} bg={"green.100"} onClick={() => {
 
                     }} />
+                    <LocationCard image={"bra.jpeg"} location_describe={"Localização Brasil, São Paulo."} id={"br"} onClick={() => {
+                        router.push("https://discord.ryzenhost.ovh")
 
+                    }} bg={null} />
                 </SimpleGrid>
             </Stack>
 
@@ -67,27 +70,27 @@ export default function VPS() {
                 <ProductDescribe title={"Tenha seu sistema online em segundos"} description={"Todos planos são atividos automaticamente."} />
                 <Stack spacing={4} width={'100%'} direction={'column'} mt={10} id={"products"}>
                     <Divider />
-                    <VPSProduct id={12} disk={40} ram={2} price={"R$18,99"} vCPU={1} planName={"Plano VPS 1"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={22} disk={40} ram={2} price={"R$14,99"} vCPU={1} planName={"Plano VPS 1"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={13} disk={70} ram={4} price={"R$26,99"} vCPU={2} planName={"Plano VPS 2"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={23} disk={70} ram={4} price={"R$19,99"} vCPU={2} planName={"Plano VPS 2"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={14} disk={100} ram={8} price={"R$37,99"} vCPU={4} planName={"Plano VPS 3"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={24} disk={100} ram={8} price={"R$29,99"} vCPU={4} planName={"Plano VPS 3"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={15} disk={150} ram={12} price={"R$46,99"} vCPU={6} planName={"Plano VPS 4"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={25} disk={150} ram={12} price={"R$36,99"} vCPU={6} planName={"Plano VPS 4"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={16} disk={200} ram={16} price={"R$56,99"} vCPU={8} planName={"Plano VPS 5"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={26} disk={200} ram={16} price={"R$51,99"} vCPU={8} planName={"Plano VPS 5"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={17} disk={360} ram={24} price={"R$72,99"} vCPU={12} planName={"Plano VPS 6"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={27} disk={360} ram={24} price={"R$62,99"} vCPU={12} planName={"Plano VPS 6"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={18} disk={490} ram={32} price={"R$99,99"} vCPU={14} planName={"Plano VPS 7"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={28} disk={490} ram={32} price={"R$75,99"} vCPU={14} planName={"Plano VPS 7"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={19} disk={600} ram={48} price={"R$119,99"} vCPU={16} planName={"Plano VPS 8"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={29} disk={600} ram={48} price={"R$99,99"} vCPU={16} planName={"Plano VPS 8"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={20} disk={800} ram={64} price={"R$149,99"} vCPU={16} planName={"Plano VPS 9"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={30} disk={800} ram={64} price={"R$121,99"} vCPU={16} planName={"Plano VPS 9"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={21} disk={1000} ram={96} price={"R$179,99"} vCPU={16} planName={"Plano VPS 10"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={31} disk={1000} ram={96} price={"R$159,99"} vCPU={16} planName={"Plano VPS 10"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                     <Divider />
-                    <VPSProduct id={22} disk={1600} ram={128} price={"R$319,99"} vCPU={26} planName={"Plano VPS 11"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
+                    <VPSProduct id={32} disk={1600} ram={128} price={"R$219,99"} vCPU={26} planName={"Plano VPS 11"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
                 </Stack>
             </Box>
             <Divider />
