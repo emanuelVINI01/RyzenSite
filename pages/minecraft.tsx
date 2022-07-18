@@ -98,14 +98,14 @@ export default function Minecraft() {
 
                         </SimpleGrid>
                         <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-br" hidden>
-                            <MinecraftProduct product_id={38} name={"Plano BRA 1"} ssd price={"5,00"} ram={1} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct product_id={39} name={"Plano BRA 2"} ssd price={"10,00"} ram={2} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct product_id={40} name={"Plano BRA 3"} ssd price={"20,00"} ram={4} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct product_id={41} name={"Plano BRA 4"} ssd price={"40,00"} ram={8} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} ranked />
-                            <MinecraftProduct product_id={42} name={"Plano BRA 5"} ssd price={"60,00"} ram={12} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct product_id={43} name={"Plano BRA 6"} ssd price={"80,00"} ram={16} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct product_id={44} name={"Plano BRA 7"} ssd price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct product_id={45} name={"Plano BRA 8"} ssd price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={38} name={"Plano BRA 1"} diskType={"SSD"} price={"5,00"} ram={1} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={39} name={"Plano BRA 2"} diskType={"SSD"} price={"10,00"} ram={2} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={40} name={"Plano BRA 3"} diskType={"SSD"} price={"20,00"} ram={4} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={41} name={"Plano BRA 4"} diskType={"SSD"} price={"40,00"} ram={8} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} ranked />
+                            <MinecraftProduct product_id={42} name={"Plano BRA 5"} diskType={"SSD"} price={"60,00"} ram={12} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={43} name={"Plano BRA 6"} diskType={"SSD"} price={"80,00"} ram={16} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={44} name={"Plano BRA 7"} diskType={"SSD"} price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+                            <MinecraftProduct product_id={45} name={"Plano BRA 8"} diskType={"SSD"} price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
                         </SimpleGrid>
                     </div>
                 </Stack>
