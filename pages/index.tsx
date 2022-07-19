@@ -6,8 +6,9 @@ import Information from '../src/components/Information'
 import RepresentProducts from '../src/components/RepresentProducts'
 import Statics from '../src/components/Statics'
 import WhyBuy from '../src/components/WhyBuy'
-import Virtualization from '../src/components/Virtualization'
+
 import Features from '../src/components/Features'
+import Virtualization from '../src/components/Virtualization'
 
 
 export default function Home() {
