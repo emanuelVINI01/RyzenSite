@@ -131,7 +131,7 @@ export default function MinecraftProduct(props: {
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
-                                    Suporte a mods e BungeeCord
+                                    Suporte a mods, BungeeCord e plugins
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />

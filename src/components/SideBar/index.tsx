@@ -146,32 +146,6 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
         <Menu>
           <Icon
             fontSize="16"
-            as={FiGlobe}
-          />
-          <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
-            Host de Sites
-          </MenuButton>
-          <MenuList>
-            <MenuItem onClick={() => {
-              router.push("/cpanel")
-            }}>cPanel</MenuItem>
-            <MenuItem onClick={() => {
-              router.push("/cpanelrevenda")
-            }}>Revenda cPanel</MenuItem>
-          </MenuList>
-        </Menu>
-      </Flex>
-      <Flex
-        align="center"
-        p="4"
-        mx="4"
-        borderRadius="lg"
-        role="group"
-        cursor="pointer"
-      >
-        <Menu>
-          <Icon
-            fontSize="16"
             as={FiCloud}
           />
           <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >

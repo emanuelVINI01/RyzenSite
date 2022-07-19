@@ -86,12 +86,12 @@ export default function Minecraft() {
                 >
                     <div>
                         <SimpleGrid columns={[1, 1, 1, 1, 2, 2]} spacing={5} id="py-prod">
-                            <ApplicationProduct product_id={19} name={"Plano Python 1"} price={"2,50"} ram={"512MB"} disk={2.5} />
-                            <ApplicationProduct product_id={20} name={"Plano Python 2"} price={"5,00"} ram={"1GB"} disk={5} ranked />
+                            <ApplicationProduct product_id={47} name={"Plano Python 1"} price={"2,50"} ram={"512MB"} disk={2.5} />
+                            <ApplicationProduct product_id={48} name={"Plano Python 2"} price={"5,00"} ram={"1GB"} disk={5} ranked />
                         </SimpleGrid>
                         <SimpleGrid columns={[1, 1, 1, 1, 2, 2]} spacing={5} id="js-prod" hidden>
-                            <ApplicationProduct product_id={17} name={"Plano JavaScript 1"} price={"2,50"} ram={"512MB"} disk={2.5} />
-                            <ApplicationProduct product_id={18} name={"Plano JavaScript 2"} price={"5,00"} ram={"1GB"} disk={5} ranked />
+                            <ApplicationProduct product_id={47} name={"Plano JavaScript 1"} price={"2,50"} ram={"512MB"} disk={2.5} />
+                            <ApplicationProduct product_id={48} name={"Plano JavaScript 2"} price={"5,00"} ram={"1GB"} disk={5} ranked />
                         </SimpleGrid>
                     </div>
                 </Stack>
