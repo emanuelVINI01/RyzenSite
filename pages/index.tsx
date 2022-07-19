@@ -28,7 +28,7 @@ export default function Home() {
       <Virtualization />
       <Divider mt={30} />
       <Features />
-      <Box bg={useColorModeValue('gray.200', 'gray.800')} data-aos={"fade-down"}>
+      <Box bg={useColorModeValue('gray.200', 'gray.800')} data-aos={"fade-down"} >
         <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
           <Stack spacing={0} align={'center'}>
             <Heading>O que dizem sobre nós</Heading>
@@ -48,7 +48,7 @@ export default function Home() {
               functionemp={'C.E.O - Optimize Team'}
               describe={'Após muito tempo na ryzen hosting, o desempenho mudou muito em questão de performace, tenho o plano revenda da i7 recomendo muito realmente superaram minhas expectativas e conseguiram ganhar minha confiança, um ótimo suporte e foi a minha primeira máquina da minha empresa, então tive uma experiencia diferenciada, realmente mudaram minha rotina a cada dia, obrigado ryzen hosting.'}
               photo={'https://cdn.discordapp.com/icons/895266471196913665/46ce2bda2b19ad4f55975527cd8b6160.webp?size=128'}
-              name={'Nuno'} />
+              name={'Nuno '} />
 
 
 
