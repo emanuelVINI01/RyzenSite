@@ -4,6 +4,7 @@ import {
   Box,
   Container,
   Divider,
+  IconButton,
   Image,
   Link,
   SimpleGrid,
@@ -11,6 +12,8 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
+import { FaDiscord } from 'react-icons/fa';
 
 const Logo = (props: any) => {
   return (
@@ -27,6 +30,7 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 };
 
 export default function Footer() {
+  const router = useRouter()
   return (
     <>
       <Box
@@ -40,9 +44,19 @@ export default function Footer() {
               <Box>
                 <Logo color={useColorModeValue('gray.700', 'white')} />
               </Box>
-              <Text fontSize={'sm'}>
+              <Text fontSize={'ml'}>
                 © 2022 Ryzen Hosting. Todos direitos reservados.
+
               </Text>
+              <IconButton
+                bg='#7289DA'
+                _hover={{}}
+                aria-label='Search database'
+                onClick={() => {
+                  router.push("https://discord.ryzenhost.ovh")
+                }}
+                icon={<FaDiscord />}
+              />
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Produtos</ListHeader>

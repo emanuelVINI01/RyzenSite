@@ -33,19 +33,28 @@ export default function Navbar() {
     <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <Flex display={{ base: 'none', md: 'flex' }} alignItems={'center'} ml={10}>
-            <DesktopNav />
+          <DesktopNav />
         </Flex>
         <Flex alignItems={'left'}>
-          
-          <Stack direction={'row'} spacing={7}>
 
+          <Stack direction={'row'} spacing={7}>
+            <Button
+              onClick={() => {
+                router.push("https://dash.ryzenhost.ovh")
+              }}
+              color={useColorModeValue('black', 'white')}
+              bg={useColorModeValue(null, "#7289DA")}
+              _hover={{ "bg": useColorModeValue(null, "") }}
+            >
+              Área do cliente
+            </Button>
             <Button
               onClick={() => {
                 router.push("https://discord.ryzenhost.ovh")
               }}
               color={useColorModeValue('black', 'white')}
               bg={useColorModeValue(null, "#7289DA")}
-              _hover={{"bg": useColorModeValue(null, "")}}
+              _hover={{ "bg": useColorModeValue(null, "") }}
             >
               Discord
             </Button>
@@ -85,7 +94,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
     >
       <Stack direction={'row'} align={'center'}>
         <Box>
-          <Text transition={'all .3s ease'} _groupHover={{ color:  useColorModeValue(null, 'white') }} fontWeight={600}>
+          <Text transition={'all .3s ease'} _groupHover={{ color: useColorModeValue(null, 'white') }} fontWeight={600}>
             {label}
           </Text>
           <Text fontSize={'sm'}>{subLabel}</Text>

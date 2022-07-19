@@ -17,6 +17,7 @@
         "@emotion/styled": "^11.6.0",
         "@widgetbot/crate": "^3.3.0",
         "analytics": "^0.7.18",
+        "aos": "^2.3.4",
         "framer-motion": "^5.3.3",
         "next": "^12.1.6",
         "prettier": "^2.5.0",

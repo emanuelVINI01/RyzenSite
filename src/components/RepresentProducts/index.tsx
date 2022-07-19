@@ -37,7 +37,7 @@ function PriceWrapper({ children }: { children: ReactNode }) {
 export default function RepresentProducts() {
     const router = useRouter()
     return (
-        <Box py={12} mt={17} id="rp">
+        <Box id="rp" data-aos={"fade-up"}>
             <VStack spacing={2} textAlign="center">
                 <Heading as="h1" fontSize="4xl" color={"green.400"}>
                     Comece seu projeto em segundos
@@ -53,28 +53,12 @@ export default function RepresentProducts() {
                 spacing={{ base: 4, lg: 10 }}
                 py={10}
             >
-                <SimpleGrid columns={[1, 1, 1, 1, 2, 3]} alignItems={"center"} spacing={20} id="cpanel">
+                <SimpleGrid columns={[1, 1, 1, 1, 2, 2]} alignItems={"center"} spacing={20} id="cpanel">
                     
        
                     <PriceWrapper>
                         <Box position="relative">
-                            <Box
-                                position="absolute"
-                                top="-16px"
-                                left="50%"
-                                style={{ transform: 'translate(-50%)' }}>
-                                <Text
-                                    textTransform="uppercase"
-                                    bg={useColorModeValue('red.300', 'red.700')}
-                                    px={3}
-                                    py={1}
-                                    color={useColorModeValue('gray.900', 'gray.300')}
-                                    fontSize="sm"
-                                    fontWeight="600"
-                                    rounded="xl">
-                                    Mais Popular
-                                </Text>
-                            </Box>
+
                             <Box py={4} px={12}>
                                 <Text fontWeight="500" fontSize="2xl" color="green.300">
                                     Minecraft
@@ -83,7 +67,7 @@ export default function RepresentProducts() {
                                     <Text fontSize="3xl" fontWeight="600" >
                                         R$
                                     </Text>
-                                    <Text fontSize="5xl" fontWeight="900" color="green.300">
+                                    <Text fontSize="5xl" fontWeight="900" color="#7289DA">
                                         3,00
                                     </Text>
                                     <Text fontSize="3xl" color="gray.500">
@@ -140,7 +124,7 @@ export default function RepresentProducts() {
                                         R$
                                     </Text>
                                     <Text fontSize="5xl" fontWeight="900" color="#7289DA">
-                                        14,99
+                                        18,99
                                     </Text>
                                     <Text fontSize="3xl" color="gray.500">
                                         /mês
@@ -167,6 +151,10 @@ export default function RepresentProducts() {
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />
                                         IPv4 dedicado
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Privacidade garantida
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={FaCheckCircle} color="green.500" />

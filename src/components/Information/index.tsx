@@ -18,7 +18,7 @@ import router from 'next/router';
 export default function Information() {
   return (
     <>
-    
+
       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
@@ -27,67 +27,82 @@ export default function Information() {
       </Head>
 
       <Container
-        maxW={'10xl'}
-        backgroundImage={"aircraft.svg"}
+        maxW={'6xl'}
         backgroundPosition={"right bottom"}
         backgroundSize={"35%"}
         backgroundRepeat={"no-repeat"}
-        
-        mb={10}
       >
         <Stack
-          as={Box}
-          
-          textAlign={'center'}
-          spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
-          <Heading
-            fontWeight={600}
-            fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
-            lineHeight={'110%'}
-            color={"green.400"}
-          >
-            Começar meu projeto 
-          </Heading>
+          align={'center'}
+          spacing={{ base: 8, md: 10 }}
+          py={{ base: 20, md: 28 }}
+          direction={{ base: 'column', md: 'row' }}>
           <Stack
-            direction={'column'}
-            spacing={2}
-            align={'center'}
-            alignSelf={'center'}
-            position={'relative'}>
-            <Button
-              colorScheme={'green'}
-              bg={'green.400'}
-              rounded={'full'}
-              px={6}
-              _hover={{
-                bg: 'green.500',
-              }}
-              onClick={() => { document.getElementById("rp").scrollIntoView({"behavior": "smooth"}) }}
+            as={Box}
+
+            textAlign={'center'}
+            spacing={{ base: 8, md: 14 }}
+            py={{ base: 20, md: 36 }}>
+            <Heading
+              fontWeight={900}
+              fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
+              lineHeight={'110%'}
+              color={useColorModeValue('black', 'white')}
             >
-              Começar agora
-            </Button>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue('gray.800', 'gray.300')}
-                w={71}
-                position={'absolute'}
-                right={-71}
-                top={'10px'}
-              />
-              <Text
-                fontSize={'lg'}
-                fontFamily={'Caveat'}
-                position={'absolute'}
-                right={'-115px'}
-                top={'-25px'}
-                transform={'rotate(15deg)'}>
-                Comece a partir de R$3,00
-              </Text>
-            </Box>
+              Começar meu projeto
+            </Heading>
+            <Text
+            fontSize={"lg"}
+            color={useColorModeValue('black', 'white')}
+            >
+              Nós termos o melhor suporte, ambiente e qualidade para lhe oferecer, venha já!
+            </Text>
+            <Stack
+              direction={'column'}
+              spacing={2}
+              align={'center'}
+              alignSelf={'center'}
+              position={'relative'}>
+              <Button
+                color={useColorModeValue('black', 'white')}
+                bg={'#7289DA'}
+                rounded={'full'}
+                px={5}
+                _hover={{
+                  bg: '#7289DA',
+                }}
+                textTransform={"uppercase"}
+                onClick={() => { document.getElementById("rp").scrollIntoView({ "behavior": "smooth" }) }}
+              >
+                Ver planos
+              </Button>
+            </Stack>
           </Stack>
+          <Flex
+            flex={1}
+            justify={'center'}
+            align={'center'}
+            position={'relative'}
+            w={'full'}>
+            <Box
+              position={'relative'}
+              rounded={'2xl'}
+              width={'full'}
+              overflow={'hidden'}>
+              <Image
+                alt={'Hero Image'}
+                fit={'cover'}
+                align={'center'}
+                w={'100%'}
+                h={'100%'}
+                src={
+                  'aircraft.svg'
+                }
+              />
+            </Box>
+          </Flex>
         </Stack>
+
       </Container>
     </>
   );

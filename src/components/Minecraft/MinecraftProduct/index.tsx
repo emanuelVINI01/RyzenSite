@@ -36,8 +36,10 @@ export default function MinecraftProduct(props: {
     product_id : number,
     name : string,
     price : string, 
+    priceQuartetely : string, 
     ram : number,
     ranked?: boolean,
+    isQuartetely?: boolean,
     ping : string,
     cpu : string,
     diskType? : string
@@ -89,10 +91,10 @@ export default function MinecraftProduct(props: {
                                     R$
                                 </Text>
                                 <Text fontSize="5xl" fontWeight="900" color="green.300">
-                                    {props.price}
+                                    {props.isQuartetely ? props.priceQuartetely : props.price}
                                 </Text>
                                 <Text fontSize="3xl" color="gray.500">
-                                    /mês
+                                    {!props.isQuartetely ? "/mês" : "/trimestre"}
                                 </Text>
                             </HStack>
                         </Box>
@@ -131,7 +133,7 @@ export default function MinecraftProduct(props: {
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
-                                    Suporte a mods, BungeeCord e plugins
+                                    Suporte a mods, BungeeCord e plugins.
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
@@ -139,7 +141,7 @@ export default function MinecraftProduct(props: {
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Button w="full" colorScheme="red" onClick={() => { router.push("https://dash.ryzenhost.ovh/cart.php?a=add&pid=" + props.product_id) }}>
+                                <Button w="full" colorScheme="red" onClick={() => { router.push("https://dash.ryzenhost.ovh/cart.php?a=add&pid=" + props.product_id + (props.isQuartetely ? "&billingcycle=quartetely" : "")) }}>
                                     Comprar
                                 </Button>
                             </Box>

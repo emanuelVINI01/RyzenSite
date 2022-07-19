@@ -14,7 +14,7 @@ import { MouseEventHandler } from 'react';
 
 
 
-export default function ProductInformation(props :{ onClick? : MouseEventHandler, scrollInto? : string}) {
+export default function ProductInformation(props: { onClick?: MouseEventHandler, scrollInto?: string }) {
   return (
     <>
       <Head>
@@ -34,12 +34,10 @@ export default function ProductInformation(props :{ onClick? : MouseEventHandler
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-            Veja nossos planos e escolha o <br />
-            <Text as={'span'} fontWeight={"bold"} color={'green.400'}>
-              seu plano
-            </Text>
+            Veja nossos planos e escolha o seu.
           </Heading>
-          <Text color={'gray.500'}>
+          <Text fontSize={"lg"}
+            color={useColorModeValue('black', 'white')}>
             Reembolso em até 7 dias após a compra.
           </Text>
           <Stack
@@ -55,7 +53,7 @@ export default function ProductInformation(props :{ onClick? : MouseEventHandler
               px={6}
               _focus={null}
               onClick={props.onClick == undefined ? () => {
-                
+
                 document.getElementById(props.scrollInto).scrollIntoView({ behavior: 'smooth' })
               } : props.onClick}
               _hover={{

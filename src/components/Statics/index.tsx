@@ -10,7 +10,7 @@ import {
 
 function Statics() {
   return (
-    <Container py={5} maxW={'container.lg'} mt={10}>
+    <Container data-aos={"fade-up"} py={5} maxW={'container.lg'} mt={10}>
       <Grid
         templateColumns={{
           base: 'repeat(1, 1fr)',
