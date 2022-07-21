@@ -30,7 +30,7 @@ export default function Minecraft() {
     let [brSelected, setBr] = useState(false)
     let [euaSelected, setEua] = useState(true)
 
-    let [quartetelySelected, setQuartetely] = useState(true)
+    let [quartetelySelected, setQuartetely] = useState(false)
 
 
     return (
