@@ -26,8 +26,6 @@ export default function Home() {
       <Divider mt={30} />
       <Statics />
       <Divider mt={30} />
-      <Virtualization />
-      <Divider mt={30} />
       <Features />
       <Box bg={useColorModeValue('gray.200', 'gray.800')} data-aos={"fade-down"} >
         <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>

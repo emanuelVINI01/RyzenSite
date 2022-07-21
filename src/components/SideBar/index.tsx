@@ -149,7 +149,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             as={FiCloud}
           />
           <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
-            Host de Sistemas
+          Host de Sistemas
           </MenuButton>
           <MenuList>
             <MenuItem onClick={() => {
@@ -174,7 +174,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             as={FiServer}
           />
           <MenuButton as={Button} colorScheme={useColorModeValue('white', 'gray.900')} color={useColorModeValue('black', 'white')} bg={useColorModeValue('white', 'gray.900')} _hover={null} _focus={null} >
-            Host de Servidores
+            Servidores
           </MenuButton>
           <MenuList>
             <MenuItem onClick={() => {
@@ -183,7 +183,11 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             <MenuItem onClick={() => {
               router.push("/vpsgaming")
             }}>Servidores VPS Gaming</MenuItem>
+              <MenuItem onClick={() => {
+              router.push("/dedicated")
+            }}>Servidores Dedicado</MenuItem>
           </MenuList>
+
 
         </Menu>
       </Flex>

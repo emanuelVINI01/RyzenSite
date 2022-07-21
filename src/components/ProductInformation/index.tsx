@@ -11,12 +11,14 @@ import {
   createIcon,
 } from '@chakra-ui/react';
 import { MouseEventHandler } from 'react';
+import Virtualization from '../Virtualization';
 
 
 
-export default function ProductInformation(props: { onClick?: MouseEventHandler, scrollInto?: string }) {
+export default function ProductInformation(props: { onClick?: MouseEventHandler, scrollInto?: string, virt?: boolean }) {
   return (
     <>
+
       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
@@ -25,6 +27,7 @@ export default function ProductInformation(props: { onClick?: MouseEventHandler,
       </Head>
 
       <Container maxW={'10xl'}>
+        
         <Stack
           as={Box}
           textAlign={'center'}
@@ -65,6 +68,7 @@ export default function ProductInformation(props: { onClick?: MouseEventHandler,
             </Button>
           </Stack>
         </Stack>
+        {props.virt && <Virtualization />}
 
       </Container>
     </>

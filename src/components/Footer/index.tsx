@@ -51,7 +51,7 @@ export default function Footer() {
               <IconButton
                 bg='#7289DA'
                 _hover={{}}
-                aria-label='Search database'
+                aria-label='Discord'
                 onClick={() => {
                   router.push("https://discord.ryzenhost.ovh")
                 }}
@@ -65,8 +65,7 @@ export default function Footer() {
               <Link href={'/apps'}>Aplicações</Link>
               <Link href={'/vps'}>VPS Xeon</Link>
               <Link href={'/vpsgaming'}>VPS Gaming</Link>
-              <Link href={'/cpanel'}>Host de Sites</Link>
-              <Link href={'/cpanelrevenda'}>Revenda cPanel</Link>
+              <Link href={'/dedicated'}>Servidores Dedicados</Link>
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Links Úteis</ListHeader>
