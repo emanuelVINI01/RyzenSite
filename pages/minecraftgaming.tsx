@@ -27,7 +27,7 @@ const settings = {
 export default function MinecraftGaming() {
 
 
-    let [quartetelySelected, setQuartetely] = useState(true)
+    let [quartetelySelected, setQuartetely] = useState(false)
 
     return (
         <>
