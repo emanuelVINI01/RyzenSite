@@ -32,13 +32,13 @@ const EuaVPSs = (
 )
 const BraVPSs = (
     <>
-        <VPSProduct magic id={48} disk={40} ram={2} price={"R$27,99"} vCPU={1} planName={"#1"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-        <VPSProduct magic id={49} disk={70} ram={4} price={"R$39,99"} vCPU={2} planName={"#2"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-        <VPSProduct magic id={50} disk={100} ram={8} price={"R$59,99"} vCPU={4} planName={"#3"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-        <VPSProduct magic id={51} disk={120} ram={12} price={"R$73,99"} vCPU={6} planName={"#4"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-        <VPSProduct magic id={52} disk={150} ram={16} price={"R$87,99"} vCPU={8} planName={"#5"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-        <VPSProduct magic id={53} disk={200} ram={24} price={"R$119,99"} vCPU={12} planName={"#6"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-        <VPSProduct magic id={54} disk={225} ram={32} price={"R$189,99"} vCPU={14} planName={"#7"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={48}  dtype={"SSD"} disk={40} ram={2} price={"R$27,99"} vCPU={1} planName={"#1"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={49}  dtype={"SSD"} disk={70} ram={4} price={"R$39,99"} vCPU={2} planName={"#2"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={50}  dtype={"SSD"} disk={100} ram={8} price={"R$59,99"} vCPU={4} planName={"#3"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={51}  dtype={"SSD"} disk={120} ram={12} price={"R$73,99"} vCPU={6} planName={"#4"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={52}  dtype={"SSD"} disk={150} ram={16} price={"R$87,99"} vCPU={8} planName={"#5"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={53} dtype={"SSD"} disk={200} ram={24} price={"R$119,99"} vCPU={12} planName={"#6"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
+        <VPSProduct magic id={54} dtype={"SSD"} disk={225} ram={32} price={"R$189,99"} vCPU={14} planName={"#7"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
     </>
 )
 
