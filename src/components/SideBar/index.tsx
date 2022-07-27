@@ -155,6 +155,9 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             <MenuItem onClick={() => {
               router.push("/apps")
             }}>Aplicações</MenuItem>
+                        <MenuItem onClick={() => {
+              router.push("/web")
+            }}>Sites</MenuItem>
           </MenuList>
         </Menu>
       </Flex>

@@ -53,7 +53,7 @@ export default function RepresentProducts() {
                 spacing={{ base: 4, lg: 10 }}
                 py={10}
             >
-                <SimpleGrid columns={[1, 1, 1, 1, 2, 2]} alignItems={"center"} spacing={20} id="cpanel">
+                <SimpleGrid columns={[1, 1, 1, 1, 2, 3]} alignItems={"center"} spacing={20} id="cpanel">
                     
        
                     <PriceWrapper>
@@ -169,7 +169,62 @@ export default function RepresentProducts() {
                             </VStack>
                         </Box>
                     </PriceWrapper>
-                
+                    <PriceWrapper>
+                        <Box position="relative">
+                            <Box py={4} px={12}>
+                                <Text fontWeight="500" fontSize="2xl" color="green.300">
+                                    Hospedagem de Sites
+                                </Text>
+                                <HStack justifyContent="center">
+                                    <Text fontSize="3xl" fontWeight="600" >
+                                        R$
+                                    </Text>
+                                    <Text fontSize="5xl" fontWeight="900" color="#7289DA">
+                                        9,99
+                                    </Text>
+                                    <Text fontSize="3xl" color="gray.500">
+                                        /mês
+                                    </Text>
+                                </HStack>
+                            </Box>
+                            <VStack
+                                bg={useColorModeValue('gray.50', 'gray.700')}
+                                py={4}
+                                borderBottomRadius={'xl'}>
+                                <List spacing={3} textAlign="start" px={12}>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Seu site sempre online
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Localizado nós Estados Unidos
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Certificado SSL (https) gratuito
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Tráfego ilimitado
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Disco SSD NVMe
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={FaCheckCircle} color="green.500" />
+                                        Painel de controle cPanel
+                                    </ListItem>
+                                </List>
+                                <Box w="80%" pt={7}>
+                                    <Button w="full" colorScheme="red" onClick={() => { router.push("/web") }}>
+                                        Configurar
+                                    </Button>
+                                </Box>
+                            </VStack>
+                        </Box>
+                    </PriceWrapper>
                 </SimpleGrid>
             </Stack>
         </Box>

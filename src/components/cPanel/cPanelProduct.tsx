@@ -30,7 +30,7 @@ function PriceWrapper({ children }: { children: ReactNode }) {
         </Box>
     );
 }
-export default function CPanelProduct(props: {disk : string, price : string, name : string, domains : string, subdomains : string, id : number, ranked? : boolean }) {
+export default function CPanelProduct(props: {disk : string, quartetely : boolean, price : string, price_quartetely : string, name : string, domains : string, subdomains : string, id : number, ranked? : boolean }) {
     const router = useRouter()
     const bg = useColorModeValue('red.300', 'red.700')
     const color = useColorModeValue('gray.900', 'gray.300')
@@ -78,10 +78,10 @@ export default function CPanelProduct(props: {disk : string, price : string, nam
                                     R$
                                 </Text>
                                 <Text fontSize="5xl" fontWeight="900" color="green.300">
-                                    {props.price}
+                                    {props.quartetely === false ? props.price : props.price_quartetely}
                                 </Text>
                                 <Text fontSize="3xl" color="gray.500">
-                                    /mês
+                                    /{props.quartetely === false ? "mês" : "trimestre"}
                                 </Text>
                             </HStack>
                         </Box>
@@ -128,7 +128,7 @@ export default function CPanelProduct(props: {disk : string, price : string, nam
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Button w="full" colorScheme="red" onClick={() => { router.push("https://dash.ryzenhost.ovh/cart.php?a=add&pid=" + props.id) }}>
+                                <Button w="full" colorScheme="red" onClick={() => { router.push("https://dash.ryzenhost.ovh/cart.php?a=add&pid=" + props.id + (props.quartetely ? "&billingcycle=quartetely" : "")) }}>
                                     Comprar
                                 </Button>
                             </Box>
