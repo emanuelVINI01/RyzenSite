@@ -27,7 +27,7 @@ const settings = {
 export default function Minecraft() {
 
 
-    let [brSelected, setBr] = useState(false)
+
     let [euaSelected, setEua] = useState(true)
 
     let [quartetelySelected, setQuartetely] = useState(false)
@@ -39,11 +39,9 @@ export default function Minecraft() {
                 <title>RyzenHosting - Minecraft</title>
             </Head>
             <ProductInformation onClick={() => {
-                if (document.getElementById("minecraft-eua").hidden) {
-                    document.getElementById("minecraft-br").scrollIntoView({ behavior: 'smooth' })
-                } else {
+
                     document.getElementById("minecraft-eua").scrollIntoView({ behavior: 'smooth' })
-                }
+
             }} />
             <Divider mt={15} />
             <Box
@@ -70,14 +68,7 @@ export default function Minecraft() {
                             document.getElementById("minecraft-br").hidden = true
 
                         }} bg={euaSelected ? "green.100" : null} />
-                        <LocationCard image={"bra.jpeg"} location_describe={"Localização Brasil, São Paulo. 5-50ms."} id={"br"} onClick={() => {
-                            if (brSelected) { return }
-                            setBr(true)
-                            setEua(false)
-                            document.getElementById("minecraft-eua").hidden = true
-                            document.getElementById("minecraft-br").hidden = false
 
-                        }} bg={brSelected ? "green.100" : null} />
                     </SimpleGrid>
                 </Stack>
                 <Stack
@@ -102,16 +93,7 @@ export default function Minecraft() {
                             <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"288,00"} product_id={9} name={"Plano EUA 8"} price={"96,00"} ram={32} ping={"de 120 a 150ms"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
 
                         </SimpleGrid>
-                        <SimpleGrid columns={[1, 1, 1, 1, 2, 4]} spacing={5} id="minecraft-br" hidden>
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"15,00"} product_id={38} name={"Plano BRA 1"} diskType={"SSD"} price={"5,00"} ram={1} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"30,00"} product_id={39} name={"Plano BRA 2"} diskType={"SSD"} price={"10,00"} ram={2} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"60,00"} product_id={40} name={"Plano BRA 3"} diskType={"SSD"} price={"20,00"} ram={4} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"120,00"} product_id={41} name={"Plano BRA 4"} diskType={"SSD"} price={"40,00"} ram={8} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} ranked />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"180,00"} product_id={42} name={"Plano BRA 5"} diskType={"SSD"} price={"60,00"} ram={12} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"240,00"} product_id={43} name={"Plano BRA 6"} diskType={"SSD"} price={"80,00"} ram={16} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"360,00"} product_id={44} name={"Plano BRA 7"} diskType={"SSD"} price={"120,00"} ram={24} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                            <MinecraftProduct isQuartetely={quartetelySelected} priceQuartetely={"480,00"} product_id={45} name={"Plano BRA 8"} diskType={"SSD"} price={"160,00"} ram={32} ping={"de 10 a 50ms"} cpu={"Intel(R) Xeon(R) E5-2470v2 @ 3.20GHz"} />
-                        </SimpleGrid>
+
                     </div>
                 </Stack>
 
