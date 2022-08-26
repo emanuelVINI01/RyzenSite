@@ -62,10 +62,8 @@ export default function Minecraft() {
 
                         <LocationCard image={"eua.png"} location_describe={"Localização Estados Unidos, Virginia. 100-150ms."} id={"eua"} onClick={() => {
                             if (euaSelected) { return }
-                            setBr(false)
                             setEua(true)
                             document.getElementById("minecraft-eua").hidden = false
-                            document.getElementById("minecraft-br").hidden = true
 
                         }} bg={euaSelected ? "green.100" : null} />
 
