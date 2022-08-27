@@ -31,7 +31,7 @@ const PackageTier = (props: { id: number, magic? : boolean, dtype?: string, disk
         <Td>{props.vCPU}vCPU</Td>
         <Td>{props.ram}GB de RAM</Td>
         <Td>{props.cpu}</Td>
-        <Td>{props.magic ? "Cloudflare Magic Transient" : "Inclusa"}</Td>
+        <Td>{props.magic ? "90TBPS Inline" : "Inclusa"}</Td>
         <Td>{props.price}</Td>
         <Td>
           <Button
