@@ -77,6 +77,7 @@ export default function VPS() {
                             setEUA(true)
                         }} />
                     <LocationCard
+                        hidden
                         image={"bra.jpeg"}
                         location_describe={"Localização Brasil, São Paulo."}
                         bg={!isEUA ? "green.100" : ""}
