@@ -30,17 +30,7 @@ const EuaVPSs = (
         <VPSProduct id={22} disk={1600} ram={128} price={"R$349,99"} vCPU={16} planName={"#11"} cpu={"Intel(R) Xeon(R) CPU E5-2650 v2 @ 3.40GHz"} />
     </>
 )
-const BraVPSs = (
-    <>
-        <VPSProduct magic id={48}  dtype={"SSD"} disk={40} ram={2} price={"R$27,99"} vCPU={1} planName={"#1"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-        <VPSProduct magic id={49}  dtype={"SSD"} disk={70} ram={4} price={"R$39,99"} vCPU={2} planName={"#2"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-        <VPSProduct magic id={50}  dtype={"SSD"} disk={100} ram={8} price={"R$59,99"} vCPU={4} planName={"#3"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-        <VPSProduct magic id={51}  dtype={"SSD"} disk={120} ram={12} price={"R$73,99"} vCPU={6} planName={"#4"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-        <VPSProduct magic id={52}  dtype={"SSD"} disk={150} ram={16} price={"R$87,99"} vCPU={8} planName={"#5"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-        <VPSProduct magic id={53} dtype={"SSD"} disk={200} ram={24} price={"R$119,99"} vCPU={12} planName={"#6"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-        <VPSProduct magic id={54} dtype={"SSD"} disk={225} ram={32} price={"R$189,99"} vCPU={14} planName={"#7"} cpu={"Intel(R) Xeon(R) CPU Dual E5-2690v2"} />
-    </>
-)
+
 
 export default function VPS() {
 
@@ -73,18 +63,7 @@ export default function VPS() {
                         image={"eua.png"}
                         location_describe={"Localização Estados Unidos, Virginia."}
                         id={"eua"}
-                        bg={isEUA ? "green.100" : ""} onClick={() => {
-                            setEUA(true)
-                        }} />
-                    <LocationCard
-                        hidden
-                        image={"bra.jpeg"}
-                        location_describe={"Localização Brasil, São Paulo."}
-                        bg={!isEUA ? "green.100" : ""}
-                        id={"bra"} onClick={() => {
-                            setEUA(false)
-                        }}
-                    />
+                        bg={"green.100"} />
                 </SimpleGrid>
             </Stack>
 
@@ -109,7 +88,7 @@ export default function VPS() {
                         </Tr>
                     </Thead>
                     <Tbody>
-                        {isEUA ? EuaVPSs : BraVPSs}
+                        {EuaVPSs}
                     </Tbody>
                 </Table>
             </Box>
