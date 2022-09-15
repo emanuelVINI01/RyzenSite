@@ -9,7 +9,7 @@ import Statics from '../src/components/Statics'
 import WhyBuy from '../src/components/WhyBuy'
 
 import Features from '../src/components/Features'
-import Virtualization from '../src/components/Virtualization'
+
 
 
 export default function Home() {
